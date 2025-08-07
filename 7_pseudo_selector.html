@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>6: Position</title>
+        <style>
+            body {
+                height: 100vh;
+                margin: 20px;
+            }
+            div {
+                width: 200px;
+                height: 200px;
+                background-color: wheat;
+            }
+            div:first-child {
+                background-color: tomato;
+            }
+            div:last-child {
+                background-color: teal;
+            }
+            span {
+                /* display: block; */
+                padding: 20px;
+                border-radius: 10px;
+                background-color: tomato;
+            }
+            /* span:nth-child(2),
+            span:nth-child(4) {
+                background-color: teal;
+            } */
+             span:nth-child(2n) {
+                background-color: teal;
+             }
+        </style>
+    </head>
+    <body>
+        <!-- <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div> -->
+        <span>hello</span>
+        <span>hello</span>
+        <span>hello</span>
+        <span>hello</span>
+        <span>hello</span>
+    </body>
+</html>
