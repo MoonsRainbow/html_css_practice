@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>12: Transition</title>
+        <style>
+            a {
+                color: wheat;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 3px 5px;
+                border-radius: 5px;
+                font-size: 55px;
+                /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
+                /* transition: all 1s ease-in-out; */
+                transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+                /* transition: all 1s cubic-bezier(0.600, 0, 0.735, 0.045); */
+            }
+            a:hover {
+                border-radius: 20px;
+                color: tomato;
+                background-color: wheat;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">Go Home</a>
+    </body>
+</html>

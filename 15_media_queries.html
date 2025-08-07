@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>15: Media Queries</title>
+        <style>
+            .body{
+                display: flex;
+                width: 100vw;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            div {
+                background-color: teal;
+                width: 200px;
+                height: 200px;
+            }
+            /* @media screen and (max-width: 600px) {
+                div {
+                    background-color: tomato;
+                }
+            } */
+            @media screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape){
+                div {
+                    background-color: wheat;
+                }
+            }
+            /* @media screen and (min-width: 801px) and (max-width: 1200px) {
+                div {
+                    background-color: turquoise;
+                }
+            } */
+             span {
+                font-size: 36px;
+            }
+            @media screen and (orientation: landscape) { 
+                span {
+                    display: none;
+                }
+            }
+            @media print {
+                body {
+                    background-color: tomato;
+                }
+            }
+        </style>
+    </head>
+    <body class="body">
+        <div></div>
+        <span>Please, flip your phone.</span>
+    </body>
+</html>
