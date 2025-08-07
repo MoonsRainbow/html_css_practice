@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>11: Pesudo Selector</title>
+        <style>
+            :root {
+                --main-color: #fcce00;
+                --default-border: 1px solid var(--main-color);
+            }
+            body {
+                height: 100vh;
+                margin: 20px;
+            }
+            input::placeholder {
+                color: teal;
+            }
+            /* p::selection {
+                color: white;
+                background-color: yellowgreen;
+            } */
+            p {
+                background-color: var(--main-color);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <form>
+            <input type="text" placeholder="Name"/>
+        </form> -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid recusandae nemo vel voluptatibus corrupti, dolor sequi quasi maiores tempora, atque voluptatem odio eius in natus. Aspernatur tenetur dolorem inventore qui!</p>
+    </body>
+</html>

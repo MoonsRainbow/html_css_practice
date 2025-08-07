@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>9: Pesudo Selector</title>
+        <style>
+            body {
+                height: 100vh;
+                margin: 20px;
+            }
+            input {
+                border: 1px solid wheat;
+            }
+            input:required {
+                border-color: tomato;
+            }
+            input[placeholder~="name"] {
+                background-color: thistle;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="First name"/>
+            <input type="text" placeholder="Last name"/>
+            <input type="password" placeholder="Password" required/>
+        </form>
+    </body>
+</html>

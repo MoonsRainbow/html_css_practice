@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>8: Pesudo Selector</title>
+        <style>
+            body {
+                height: 100vh;
+                margin: 20px;
+            }
+            span {
+                color: tomato;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: yellowgreen;
+            }
+            p span {
+                color: white;
+            }
+            p ~ span {
+                text-decoration: underline;
+            }
+            p + span {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <span>Juno Times</span>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Assumenda esse doloremque voluptates architecto reprehenderit magnam, 
+                earum labore sapiente incidunt nostrum voluptas enim aut consequatur ex fugit! 
+                Quam ipsam consequuntur amet. <span>inside</span>
+            </p>
+            <span>Juno Times</span>
+            <span>Juno Times</span>
+        </div>
+    </body>
+</html>
