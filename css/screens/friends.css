@@ -1,0 +1,23 @@
+#friends-display-link {
+	display: flex;
+	padding: 15px 0px;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	background-color: #f9f9f9;
+	gap: 8px;
+	color: #fff;
+}
+#friends-display-link:visited {
+	color: inherit;
+}
+.friends-display-link__text {
+	color: #666;
+}
+.friends-display-link__icon {
+	font-size: var(--sub-title-font-size);
+	color: #bbb;
+}
+.friends-display-link__icon:last-child {
+	font-size: var(--content-font-size);
+}
