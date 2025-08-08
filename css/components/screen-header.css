@@ -1,0 +1,21 @@
+.screen-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: calc(20px + var(--fixed-top)) 30px 20px 30px;
+}
+.screen-header__title {
+	font-size: var(--title-font-size);
+}
+.screen-header__icon-group {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.screen-header__icon-group__icon {
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: var(--icon-color);
+	text-decoration: none;
+}

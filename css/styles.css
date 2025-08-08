@@ -1,9 +1,17 @@
-@import "reset.css";
 @import "fonts.css";
+@import "reset.css";
 @import "variables.css";
+@import url("https://unpkg.com/lucide-static@latest/font/lucide.css");
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+	height: 200vh;
+}
