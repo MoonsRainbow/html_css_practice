@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Welcome to Kokoa Clone</title>
+		<link
+			rel="stylesheet"
+			href="css/styles.css"
+		/>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<img
+					class="status-bar__column__icon"
+					src="https://unpkg.com/lucide-static@latest/icons/wifi.svg"
+				/>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<img
+					class="status-bar__column__icon"
+					src="https://unpkg.com/lucide-static@latest/icons/battery-full.svg"
+				/>
+				<img
+					class="status-bar__column__icon"
+					src="https://unpkg.com/lucide-static@latest/icons/zap.svg"
+				/>
+			</div>
+		</div>
+		<header class="welcome-header">
+			<h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+			<div class="welcome-header__text-box">
+				<p class="welcome-header__text-box__text">
+					If you have a Kokoa Account,
+				</p>
+				<p class="welcome-header__text-box__text">
+					log in with your email or phone number.
+				</p>
+			</div>
+		</header>
+		<form
+			id="login-form"
+			action="friends.html"
+			method="get"
+		>
+			<input
+				class="login-form__input login-form__text"
+				name="username"
+				type="text"
+				placeholder="Email or phone number"
+				required
+			/>
+			<input
+				class="login-form__input login-form__text"
+				name="password"
+				type="password"
+				placeholder="Password"
+				required
+			/>
+			<input
+				class="login-form__input login-form__btn"
+				type="submit"
+				value="Log In"
+			/>
+			<a
+				class="login-form__a"
+				href="#"
+			>
+				Find Kokoa Account or Password</a
+			>
+		</form>
+	</body>
+</html>
