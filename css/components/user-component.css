@@ -29,6 +29,7 @@
 }
 .user-component__action-box {
 	display: flex;
+	gap: 10px;
 }
 .user-component__action-box-horizontal {
 	align-items: center;
@@ -36,6 +37,8 @@
 .user-component__action-box-vertical {
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	gap: 5px;
 }
 .user-component__title {
 	font-size: var(--content-font-size);

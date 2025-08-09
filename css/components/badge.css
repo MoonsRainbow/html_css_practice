@@ -1,0 +1,29 @@
+.badge__noti {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.badge__noti__nav-bar {
+	position: absolute;
+	top: -5px;
+}
+.badge__counts {
+	background-color: tomato;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: white;
+	font-size: 14px;
+}
+.badge__counts__nav-bar {
+	left: 16px;
+}
+.badge__dots {
+	width: 20px;
+	height: 20px;
+	color: tomato;
+	font-size: 30px;
+}
+.badge__dots__nav-bar {
+	left: 18px;
+}

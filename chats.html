@@ -6,7 +6,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>Friends - Kokoa Clone</title>
+		<title>Chats - Kokoa Clone</title>
 		<link
 			rel="stylesheet"
 			href="css/styles.css"
@@ -28,12 +28,17 @@
 			</div>
 		</div>
 		<header class="screen-header">
-			<h1 class="screen-header__title font-bold">Friends</h1>
+			<h1 class="screen-header__title font-bold">Chats</h1>
 			<div class="screen-header__icon-group">
 				<a
 					href="#"
 					class="screen-header__icon-group__icon"
 					><i class="icon-search"></i
+				></a>
+				<a
+					href="#"
+					class="screen-header__icon-group__icon"
+					><i class="icon-message-circle-plus"></i
 				></a>
 				<a
 					href="#"
@@ -47,49 +52,26 @@
 				></a>
 			</div>
 		</header>
-		<a
-			href="#"
-			id="friends-display-link"
-		>
-			<i class="icon-info friends-display-link__icon"></i>
-			<span class="friends-display-link__text">Friends' Names Display</span>
-			<i class="icon-chevron-right friends-display-link__icon"></i>
-		</a>
 		<main class="main-screen">
 			<div class="user-component">
 				<div class="user-component__column">
 					<img
 						src="resource/moons-rainbow.png"
-						class="user-component__avatar user-component__avatar-large"
+						class="user-component__avatar"
 					/>
 					<div class="user-component__info-box">
 						<h4 class="user-component__title font-semi-bold">Moons Rainbow</h4>
+						<h6 class="user-component__text font-gray">
+							Please check My Kokoa...
+						</h6>
 					</div>
 				</div>
-			</div>
-			<div class="friends-screen__channel">
-				<div class="friends-screen__channel-header">
-					<span class="friends-screen__channel-header__title font-gray">
-						Channel
-					</span>
-				</div>
-				<div class="user-component">
-					<div class="user-component__column">
-						<img
-							src="resource/github-mark.svg"
-							class="user-component__avatar user-component__avatar-small"
-						/>
-						<div class="user-component__info-box">
-							<h4 class="user-component__title">Github</h4>
-						</div>
-					</div>
-					<div class="user-component__column">
-						<div
-							class="user-component__action-box user-component__action-box-horizontal"
-						>
-							<span class="user-component__text font-gray">2</span>
-							<i class="icon-chevron-right user-component__icon font-gray"></i>
-						</div>
+				<div class="user-component__column">
+					<div
+						class="user-component__action-box user-component__action-box-vertical"
+					>
+						<span class="user-component__text font-gray">21:22</span>
+						<span class="badge__noti badge__counts font-bold">1</span>
 					</div>
 				</div>
 			</div>
@@ -100,7 +82,7 @@
 					<a
 						href="friends.html"
 						class="nav-bar__column__icon"
-						><i class="icon-user-round font-black-bold"></i
+						><i class="icon-user-round font-dark-gray"></i
 					></a>
 				</li>
 				<li class="nav-bar__btn">
@@ -111,7 +93,7 @@
 						<span
 							class="badge__noti badge__noti__nav-bar badge__counts badge__counts__nav-bar font-semi-bold"
 							>1</span
-						><i class="icon-message-circle-more font-dark-gray"></i
+						><i class="icon-message-circle-more font-black-bold"></i
 					></a>
 				</li>
 				<li class="nav-bar__btn">

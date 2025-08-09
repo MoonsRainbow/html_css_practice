@@ -16,29 +16,6 @@
 	text-decoration: none;
 	position: relative;
 }
-.nav-bar__noti {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: -5px;
-}
-.nav-bar__counts {
-	background-color: tomato;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	color: white;
-	font-size: 14px;
-	left: 16px;
-}
-.nav-bar__dots {
-	width: 20px;
-	height: 20px;
-	color: tomato;
-	font-size: 30px;
-	left: 18px;
-}
 .nav-bar__column__icon {
 	position: relative;
 	text-decoration: none;
