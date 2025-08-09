@@ -1,3 +1,6 @@
+.friends__screen {
+	margin: var(--vertical-space) var(--horizontal-space);
+}
 #friends-display-link {
 	display: flex;
 	padding: 15px 0px;
@@ -19,5 +22,14 @@
 	color: #bbb;
 }
 .friends-display-link__icon:last-child {
-	font-size: var(--content-font-size);
+	font-size: var(--small-font-size);
+}
+.friends-screen__channel {
+	margin: 25px 0px;
+	border-top: 1px solid #ddd;
+}
+.friends-screen__channel-header {
+	display: flex;
+	align-items: center;
+	margin: 15px 0px;
 }

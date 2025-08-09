@@ -6,3 +6,11 @@
 .font-bold {
 	font-weight: 700;
 }
+
+.font-dark-gray {
+	color: #666;
+}
+
+.font-gray {
+	color: #999;
+}

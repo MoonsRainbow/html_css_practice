@@ -1,8 +1,11 @@
 :root {
 	--fixed-top: 28px;
+	--horizontal-space: 20px;
+	--vertical-space: 20px;
 	--main-color: #fae100;
 	--title-font-size: 24px;
 	--sub-title-font-size: 20px;
 	--content-font-size: 16px;
+	--small-font-size: 12px;
 	--icon-color: #333;
 }
