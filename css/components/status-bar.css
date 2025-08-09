@@ -7,8 +7,9 @@
 	top: 0px;
 	width: 100%;
 	box-sizing: border-box;
-	background-color: white;
+	background-color: #666;
 	z-index: 999;
+	color: #eee;
 }
 .status-bar__column {
 	display: flex;

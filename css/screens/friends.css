@@ -23,7 +23,7 @@
 }
 .friends-screen__channel {
 	margin: 25px 0px;
-	border-top: 1px solid #ddd;
+	border-top: var(--border-bottom);
 }
 .friends-screen__channel-header {
 	display: flex;

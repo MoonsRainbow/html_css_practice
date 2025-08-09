@@ -1,0 +1,31 @@
+.find__icon-group {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: var(--border-bottom);
+	padding: 20px 0;
+}
+.find__icon-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+	width: 25%;
+	text-align: center;
+	gap: 20px;
+	color: #333;
+}
+.find__icon {
+	font-size: 30px;
+}
+.find__recommend-friends {
+	display: flex;
+	flex-direction: column;
+	border-bottom: var(--border-bottom);
+	padding: 20px 0;
+}
+.find__recommend-friends__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
