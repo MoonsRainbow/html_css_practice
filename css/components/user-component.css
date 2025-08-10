@@ -51,3 +51,11 @@
 .user-component__icon {
 	font-size: var(--content-font-size);
 }
+.user-component__text i {
+	font-size: 12px;
+	color: red;
+	margin-left: 5px;
+}
+.user-component__icon-large {
+	font-size: 30px;
+}
