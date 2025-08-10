@@ -1,0 +1,28 @@
+.icon-rows__group {
+	display: flex;
+	justify-content: start;
+	align-items: stretch;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	row-gap: 40px;
+	border-bottom: var(--border-bottom);
+}
+.icon-rows__group-padding {
+	padding: 20px 0;
+}
+.icon-rows__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+	width: 25%;
+	text-align: center;
+	gap: 10px;
+	color: #333;
+}
+.icon-rows__icon {
+	font-size: 25px;
+}
+.icon-rows__icon-large {
+	font-size: 30px;
+}
