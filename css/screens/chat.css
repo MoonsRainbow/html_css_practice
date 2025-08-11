@@ -21,23 +21,66 @@
 	padding-top: calc(var(--fixed-top) + var(--vertical-space) + 30px);
 	gap: 25px;
 }
+@keyframes fadeInUp {
+	from {
+		transform: translateY(15px);
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+@keyframes fadeInDown {
+	from {
+		transform: translateY(-15px);
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+@keyframes fadeInLeft {
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+@keyframes fadeInRight {
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
 .chat__timestamp {
 	padding: 10px 15px;
 	background-color: rgba(0, 0, 0, 0.2);
 	color: #eee;
 	font-size: var(--small-font-size);
 	border-radius: 30px;
+	animation: fadeInDown 0.5s ease-in-out;
 }
 .message-row {
+	transform: translateX(-15px);
+	opacity: 0;
 	display: flex;
 	width: 100%;
 	box-sizing: border-box;
 	align-items: start;
 	gap: 10px;
+	animation: fadeInLeft 0.5s ease-in-out forwards;
+	animation-delay: 0.3s;
+}
+.message-row:last-child {
+	animation-delay: 0.6s;
 }
 .message-row--own {
+	transform: translateX(15px);
+	opacity: 0;
 	flex-direction: row-reverse;
 	justify-content: end;
+	animation: fadeInRight 0.5s ease-in-out forwards;
 }
 .message-row--own .message__info {
 	flex-direction: row-reverse;
