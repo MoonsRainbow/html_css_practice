@@ -30,3 +30,23 @@
 	align-items: center;
 	margin: 15px 0px;
 }
+@keyframes hideSplashScreen {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+#splash-screen {
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	animation: hideSplashScreen 0.3s ease-in-out forwards;
+	animation-delay: 0.7s;
+}
+#splash-screen img {
+	width: 100vw;
+	height: 100vh;
+}
