@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Friends - Kokoa Clone</title>
+		<link
+			rel="stylesheet"
+			href="css/styles.css"
+		/>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="icon-wifi status-bar__column__icon"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<i class="icon-battery-full status-bar__column__icon"></i>
+				<i class="icon-zap status-bar__column__icon"></i>
+			</div>
+		</div>
+		<header class="welcome-header">
+			<h1 class="welcome-header__title font-bold">Welcome to KoKoa Clone</h1>
+			<div class="welcome-header__text-box">
+				<p class="welcome-header__text-box__text font-gray">
+					If you have a Kokoa Account,
+				</p>
+				<p class="welcome-header__text-box__text font-gray">
+					log in with your email or phone number.
+				</p>
+			</div>
+		</header>
+		<form
+			id="login-form"
+			action="friends.html"
+			method="get"
+		>
+			<input
+				class="login-form__input login-form__text"
+				name="username"
+				type="text"
+				placeholder="Email or phone number"
+				required
+			/>
+			<input
+				class="login-form__input login-form__text"
+				name="password"
+				type="password"
+				placeholder="Password"
+				required
+			/>
+			<input
+				class="login-form__input login-form__btn"
+				type="submit"
+				value="Log In"
+			/>
+			<a
+				class="login-form__link"
+				href="#"
+			>
+				Find Kokoa Account or Password</a
+			>
+		</form>
+	</body>
+</html>
