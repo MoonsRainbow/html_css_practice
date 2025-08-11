@@ -3,6 +3,16 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.user-component a {
+	width: 100%;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	text-decoration: none;
+}
+.user-component a:visited {
+	color: inherit;
+}
 .user-component__column:first-child {
 	display: flex;
 	align-items: center;

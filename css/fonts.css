@@ -2,19 +2,18 @@
 .font-semi-bold {
 	font-weight: 600;
 }
-
 .font-bold {
 	font-weight: 700;
 }
-
 .font-black-bold {
 	font-weight: 900;
 }
-
 .font-dark-gray {
 	color: #666;
 }
-
 .font-gray {
 	color: #999;
+}
+.font-black {
+	color: #000;
 }

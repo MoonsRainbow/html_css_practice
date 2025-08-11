@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Chat - Kokoa Clone</title>
+		<link
+			rel="stylesheet"
+			href="css/styles.css"
+		/>
+	</head>
+	<body class="chat__body">
+		<div class="status-bar chat__status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="icon-wifi status-bar__column__icon"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<i class="icon-battery-full status-bar__column__icon"></i>
+				<i class="icon-zap status-bar__column__icon"></i>
+			</div>
+		</div>
+		<header class="alt-screen-header">
+			<div class="alt-screen-header__column">
+				<a href="chats.html">
+					<i class="icon-chevron-left alt-screen-header__icon"></i>
+				</a>
+			</div>
+			<div class="alt-screen-header__column">
+				<span class="alt-screen-header__title">Moons Rainbow</span>
+			</div>
+			<div class="alt-screen-header__column">
+				<div class="alt-screen-header__icon-group">
+					<i class="icon-search alt-screen-header__icon"></i>
+					<i class="icon-menu alt-screen-header__icon"></i>
+				</div>
+			</div>
+		</header>
+		<main class="main-screen main-chat">
+			<div class="chat__timestamp">Monday, Agust 11, 10:48</div>
+			<div class="message-row">
+				<img src="resource/moons-rainbow.png" />
+				<div class="message-row__content">
+					<span class="message__author">Moons Rainbow</span>
+					<div class="message__info">
+						<span class="message__bubble">Hello, World.</span>
+						<span class="message__time">10:48</span>
+					</div>
+				</div>
+			</div>
+			<div class="message-row message-row--own">
+				<div class="message-row__content">
+					<div class="message__info">
+						<span class="message__bubble">Hello, World.</span>
+						<span class="message__time">10:49</span>
+					</div>
+				</div>
+			</div>
+		</main>
+		<form id="reply">
+			<div class="reply__input-box">
+				<div class="reply__column">
+					<span><i class="icon-square-plus font-dark-gray"></i></span>
+				</div>
+				<div class="reply__column">
+					<input
+						type="text"
+						class="reply__input-text"
+						placeholder="Write a message..."
+					/>
+					<div class="reply__input-sub-box">
+						<span><i class="icon-smile font-dark-gray"></i></span>
+						<button>
+							<span><i class="icon-arrow-up"></i></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
